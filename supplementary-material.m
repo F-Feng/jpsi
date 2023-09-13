@@ -28955,23 +28955,12 @@ NNLO_int _loop _counterterm:  squared amplitude of tree * loop counterterm (inte
 ----------------------------------------------
 NLO_nfr _bare:   squared amplitude of tree * one loop (non-fragmentation term)
 NLO_nfr _counterterm:   squared amplitude of tree * tree counterterm (non-fragmentation term)
-NNLO_nfr _bare:   squared amplitude of tree * two loop (non-fragmentation term);  it is a list with 253 elements, wich corresponds to the results of the 253 two loop Feynman diagrams
+NNLO_nfr _bare:   squared amplitude of tree * two loop (non-fragmentation term);  it is a list with 253 elements, wich corresponds to the results of the 253 two loop Feynman diagrams ( diagram + diagram of interchanging the two J/psi ), respectively
 NNLO_nfr _tree _counterterm:  squared amplitude of tree * tree counterterm (at order-alphs^2) (non-fragmentation term)
 NNLO_nfr _loop _counterterm:  squared amplitude of tree * loop counterterm (non-fragmentation term)
 NNLO_nfr _ 1loop*1loop: squared amplitude of 1loop * 1loop (non-fragmentation term)
 *)
 
-
-(*structure of alldata[[1]]  -------
-  {"t=-0.4*mc^2 or  cos theta=0.999",
-  {
-     {{values of NLO_int|bare,  values of NLO_int|counter term},
-     {values of NNLO_int|bare, values of NNLO_int|tree counter term, values of NNLO_int|loop counter term}}
-     ,
-    {{values of NLO_nfr|bare,  values of NLO_nfr|counter term},
-     {values of NNLO_nfr|bare, values of NNLO_nfr|tree counter term, values of NNLO_nfr|loop counter term, NNLO_nfr|1loop*1loop}}
-  }
-      }   *)
 
 (*  for cos\[Theta]=0.970  *)
 ii=2;
